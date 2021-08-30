@@ -108,8 +108,9 @@ export default function App() {
     <div/> 
        
         <nav>
-          <h4>Cadastre um novo filme</h4>
+          
           <form on Submit={onSubmit}>
+          <h4>Cadastre um novo filme</h4>
             <input
               placeholder="Digite o nome do filme"
               value={nomeFilme}
@@ -148,7 +149,7 @@ export default function App() {
               <br/>
               <img src={f.imagemUrl} alt={f.nome} />
               </div>
-              <div>
+              <div class="sinopse">
               <p>{f.sinopse}</p>
               <br/>
               <button onClick={() => deletar(index)}>Deletar</button>

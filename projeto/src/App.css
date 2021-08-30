@@ -7,25 +7,50 @@ body{
 body {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column */;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 nav{
   position: fixed;
-  justify-content:center;
-  font-size: 15px;
+  font-size: 12px;
+
+  margin: 1px;
+}
+form h4{
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
   align-items: center;
 }
+form {
+  box-shadow: #5f917e 0px 8px 24px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+form input{
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+form button{
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  background-color: transparent;
+  color: #fff;
+}
+
 .container{
   /* text-align: center;
   justify-content: center; */
 }
 .container img{
-  width: 520px;
+  width: 300px;
   border-radius: 5px;
   
 }
@@ -40,8 +65,24 @@ nav{
   text-align: center;
   justify-content: center;
 }
-.filmes, h3{
+.filmes{
   text-align: center;
   justify-content: center;
-  
+  box-shadow: #b4d4c8 0px 8px 24px;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-left: 15rem;
+  display: flex;
+}
+h3{
+  text-align: center;
+  justify-content: center;
+}
+.sinopse{
+  margin-top: 4rem;
+  font-size: 12px;
+  text-align: justify;
+  margin-left: 2rem;
+
 }
